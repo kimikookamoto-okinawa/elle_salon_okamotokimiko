@@ -1,0 +1,35 @@
+.slick-slide img {
+    height: 13vw; 
+    max-height: 400px; 
+    min-height: 100px; 
+    margin: 0;
+  }
+
+  .slick-slider {
+      width:80%;
+      margin: 0px auto;
+  }
+
+.slide-btn{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.slide-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .prev-arrow {
+    left: 0;
+    z-index: 12;
+    width: 7%;
+    opacity: 0.5;
+  }
+  .next-arrow {
+    right: 0;
+    width: 7%;
+    opacity: 0.5;
+  }

@@ -1,0 +1,261 @@
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.comment{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 12px;
+  letter-spacing: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 40px;
+}
+
+.container{
+  margin: 0 auto;
+  width:95%;
+  padding-top: 80px;
+  text-align: center;
+}
+
+header {
+	padding: 40px 3%;
+	transition: .3s;
+}
+header.scroll {
+	background-image: url(./img/header-bg3.jpg);
+	padding: 15px 3%;
+}
+
+header{
+  margin: 0 auto;
+  width: 100%;
+  background-image: url(./img/header-bg2.jpg);
+  background-size: cover;
+  height: 800px;
+  padding-top: 160px;
+}
+
+.navbar{
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  background-color:rgba(70, 59, 22, 0.3);
+  z-index: 10;
+  position: fixed;
+}
+
+.navbar-nav{
+  margin-left: 15%;
+}
+
+.nav-btn{
+  width:100px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  margin:0 20px;
+}
+
+
+.nav-item:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  color: antiquewhite;
+  transition: opacity 0.5s;  
+}
+
+
+.navbar-brand{
+  width: 12%;
+  margin-right: 60px;
+}
+
+.header-logo{
+  width: 10%;
+  margin: 0 50px;
+  background-color:rgba(188, 143, 143, 0.9);
+  z-index: 11;
+  float: left;
+  height: 130px;
+  position: fixed;
+  line-height: 130px;
+  padding: 0 5px;
+  border-radius: 0 0 50px 10px;
+}
+
+.header-logo img{
+  width: 100%;
+}
+
+.header-comment{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 10pt;
+  letter-spacing: 10px;
+}
+
+.header-words{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-words h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+.header-words h1 {
+   font-size: 3.5em; 
+  }
+
+.header-words h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.hairstyle{
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+}
+
+
+
+.slide-hair{
+  width: 55%;
+  float: left;
+}
+
+ul{
+  display: inline-block;
+}
+
+.hair-comment {
+  display: inline-block;
+  width: 35%;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 8px;
+}
+
+.slide-eye{
+  width: 55%;
+  margin-top: 50px;
+  float:right;
+}
+.eye-comment {
+  display: inline-block;
+  width: 35%;
+  padding-top: 50px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 8px;
+}
+.main {
+	position: sticky;
+	top: 0;
+}
+.content {
+	position: sticky;
+	top: 0;
+}
+
+.hairstyle h3{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  line-height: 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 15px;
+  color: slategrey;
+}
+
+.hairstyle h4{
+  font-size: 13px;
+  border-bottom: 1px solid rosybrown;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.style-right{
+  width: 100%;
+  height: 250px;
+}
+
+.stylist{
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  height: 1000px;
+  background-color: blanchedalmond;
+}
+
+
+.stylist p{
+  display: inline-block;
+  width: 35%;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 8px;
+}
+
+.stylist img{
+  width:20%;
+  padding-bottom: 50px;
+}
+
+.stylist h3{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  line-height: 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 15px;
+  color: slategrey;
+}
+
+.stylist h4{
+  font-size: 20px;
+  border-bottom: 1px solid rosybrown;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.stylist a{
+  display: block;
+  color: slategrey;
+  width: 30%;
+  margin: 0 auto;
+}
